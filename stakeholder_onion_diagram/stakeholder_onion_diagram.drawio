@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.2.4">
+  <diagram name="Página-1" id="u0MARAcY8vhyC-7ttvJp">
+    <mxGraphModel dx="672" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="440" width="440" x="190" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="310" width="310" x="255" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="200" width="200" x="310" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;Robôs&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="370" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-7" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="340" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-8" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="470" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Controlador da Missão&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="45" x="327.5" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Equipe do Armazém&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="45" x="457.5" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-15" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="427.5" y="327.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Solicitantes&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(Equipe Médica)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="67.5" x="360" y="337.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-19" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="510" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-20" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="325" y="357.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Gerente do Setor&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="45" x="497.5" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Desenvolvedores&lt;/font&gt;" vertex="1">
+          <mxGeometry height="5" width="45" x="325" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-24" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="262.5" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-25" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="590" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-26" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="320" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pacientes&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="45" x="250" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Visitantes do Hospital&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="52.5" x="570" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="7YMIU_xdDy8vnc9cu4BQ-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Funcionários do Hospital&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="52.5" x="308.75" y="450" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
