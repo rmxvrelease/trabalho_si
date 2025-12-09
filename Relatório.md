@@ -59,13 +59,29 @@ O objetivo principal do sistema e da missão é a entrega de mercadorias e equip
 # 2. Fundamentação Teórica
 
 # 3. Modelagens
-## - Fase 1: Initiation
+## Fase 1: Initiation
+- ### Context Diagram
 
-## - Fase 2: Investigation
+![context diagram](context_diagram/context_diagram.jpg)
+A imagem consiste em um "Context Diagram" no qual se descreve o trabalho (Work) que o sistema de entregas robótico deve realizar. Vale notar que o diagrama não especifica de que forma o trabalho deve ser executado nem o funcionamento
+interno do serviço, ele apenas descreve as manifestações externas e os efeitos provenientes da sua realização sobre os atores diretamente afetados por ele.
 
-## - Fase 3: Decision
+Assim, o diagrama em questão poderia representar o serviço de entregas tanto antes da sua automação por meio de robôs 
+(The World-as-is) quanto depois dela (The World-to-be). Essa é uma característica típica do que se convencionou denominar "project-level context diagram" ou "diagrama de contexto a nível de projeto", em tradução livre.
 
-## - Fase 4: Formulation
+- ### Stakeholder Onion Diagram
+![stakeholder onion](stakeholder_onion_diagram/stakeholder_onion_diagram.png)
+
+## Fase 2: Investigation
+- ### Domain Scenarios
+![domain scenario 1](domain_scenarios/domain_scenario_1.png)
+
+- ### Goal Model (v1)
+![goal model](goal_model/goalModelTrabalhoSi.svg)
+
+## Fase 3: Decision
+
+## Fase 4: Formulation
 
 # 4. Conclusões
 
