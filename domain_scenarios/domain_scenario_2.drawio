@@ -1,0 +1,241 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.2.6">
+  <diagram name="Página-1" id="91nv-T6fxaFLxKtKT5tC">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#FFFFFF,#000000)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="55" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Solicitante" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="59.5" as="sourcePoint" />
+            <mxPoint x="190" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="solicita" vertex="1">
+          <mxGeometry height="30" width="60" x="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-6" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" value="" vertex="1">
+          <mxGeometry height="61.800000000000004" width="45.6" x="210" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Controlador da Missão" vertex="1">
+          <mxGeometry height="30" width="67.2" x="199.2" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="59" as="sourcePoint" />
+            <mxPoint x="370" y="59.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="verifica" vertex="1">
+          <mxGeometry height="30" width="60" x="300" y="29" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-11" parent="1" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="400" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Estoque" vertex="1">
+          <mxGeometry height="30" width="67.2" x="391.4" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1." vertex="1">
+          <mxGeometry height="30" width="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2." vertex="1">
+          <mxGeometry height="30" width="60" x="250" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="110" as="sourcePoint" />
+            <mxPoint x="370" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=40;" value="designa" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-18" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Phosphor_Duotone_Vol_4-2933/robot-duotone-1373.svg" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="390" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Robô A (bateria fraca)" vertex="1">
+          <mxGeometry height="30" width="83.6" x="378.2" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv0Nlo8CW2bMaKCCMa3U-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3." vertex="1">
+          <mxGeometry height="30" width="60" x="266.4" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="458.6" y="189.5" as="sourcePoint" />
+            <mxPoint x="538.6" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="navega" vertex="1">
+          <mxGeometry height="30" width="60" x="468.6" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-3" parent="1" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="560" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Armazém" vertex="1">
+          <mxGeometry height="30" width="67.2" x="551.4" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=40;" value="envia" vertex="1">
+          <mxGeometry height="30" width="60" x="309.20000000000005" y="385.00429493738085" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-7" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="" vertex="1">
+          <mxGeometry height="60" width="80" x="382" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300.6" y="385" as="sourcePoint" />
+            <mxPoint x="360.6" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Mensagem" vertex="1">
+          <mxGeometry height="30" width="67.2" x="388.4" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="para" vertex="1">
+          <mxGeometry height="30" width="60" x="480.6" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480.6" y="444" as="sourcePoint" />
+            <mxPoint x="550.6" y="444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-11" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="560.6" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Equipe do Armazém" vertex="1">
+          <mxGeometry height="30" width="60" x="545.6" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4." vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570.6" y="549" as="sourcePoint" />
+            <mxPoint x="570.6" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=0;" value="disponibiliza" vertex="1">
+          <mxGeometry height="30" width="60" x="580.6" y="575.0042949373808" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-55" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/MedICO_Free_Medical_Icons-2881/medkit-519.png" value="" vertex="1">
+          <mxGeometry height="64" width="64" x="540.6" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Item" vertex="1">
+          <mxGeometry height="30" width="67.2" x="539" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="6." vertex="1">
+          <mxGeometry height="30" width="60" x="199.2" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-61" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="249.20000000000002" y="405" as="sourcePoint" />
+            <mxPoint x="250.6" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="entrega" vertex="1">
+          <mxGeometry height="30" width="60" x="184.6" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-63" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/MedICO_Free_Medical_Icons-2881/medkit-519.png" value="" vertex="1">
+          <mxGeometry height="64" width="64" x="218.6" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Item" vertex="1">
+          <mxGeometry height="10" width="67.2" x="216.99999999999997" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8." vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-67" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="269.20000000000005" y="415" as="sourcePoint" />
+            <mxPoint x="359.6" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-68" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.misc.map;fillColorStyles=fillColor2,fillColor3,fillColor4,fillColor5,fillColor6;strokeColorStyles=strokeColor2,strokeColor3;fillColor2=#ffffff;fillColor3=#ffca8c;fillColor4=#d87146;fillColor5=#b2d8ad;fillColor6=#ffffff;strokeColor2=#000000;strokeColor3=#d87146;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="50" width="60" x="369.20000000000005" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Destino" vertex="1">
+          <mxGeometry height="30" width="67.2" x="365.6" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=60;" value="desloca" vertex="1">
+          <mxGeometry height="30" width="60" x="299.20000000000005" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7." vertex="1">
+          <mxGeometry height="30" width="60" x="260.6" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-72" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="625" y="190" as="sourcePoint" />
+            <mxPoint x="690" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="verifica" vertex="1">
+          <mxGeometry height="30" width="60" x="625" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-74" parent="1" style="image;html=1;image=img/lib/clip_art/general/Battery_0_128x128.png" value="" vertex="1">
+          <mxGeometry height="60" width="70" x="685" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Bateria &amp;lt;= 10%" vertex="1">
+          <mxGeometry height="30" width="93.6" x="673.1999999999999" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-77" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="250" as="sourcePoint" />
+            <mxPoint x="540" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=30;" value="retorna" vertex="1">
+          <mxGeometry height="30" width="60" x="480.99999999999994" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-84" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Energy_and_Power_Glyph_24_px-2259/Bolt_flashlight_lightning_power_thunder-533.svg" value="" vertex="1">
+          <mxGeometry height="44" width="44" x="541.6" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-85" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Estação de Recarga" vertex="1">
+          <mxGeometry height="30" width="67.2" x="530" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-86" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5." vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-87" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="244.6" y="170.00429493738085" as="sourcePoint" />
+            <mxPoint x="245" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-88" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=0;" value="designa" vertex="1">
+          <mxGeometry height="30" width="60" x="184.6" y="210.00429493738085" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-89" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Phosphor_Duotone_Vol_4-2933/robot-duotone-1373.svg" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="218" y="295.00429493738085" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-90" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Robô B (bateria boa)" vertex="1">
+          <mxGeometry height="30" width="83.6" x="206.20000000000005" y="355.00429493738085" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-92" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="289.8" y="324.5" as="sourcePoint" />
+            <mxPoint x="369.8" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-93" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="navega" vertex="1">
+          <mxGeometry height="30" width="60" x="299.8" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-94" parent="1" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="391.2" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-95" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Armazém" vertex="1">
+          <mxGeometry height="30" width="67.2" x="382.59999999999997" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-96" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="9." vertex="1">
+          <mxGeometry height="30" width="60" x="250" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="tVfSDRUvXO5hYpuckUOm-97" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10." vertex="1">
+          <mxGeometry height="30" width="60" x="202.8" y="390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -71,7 +71,7 @@ Assim, o diagrama em questão poderia representar o serviço de entregas tanto a
 (The World-as-is) quanto depois dela (The World-to-be). Essa é uma característica típica do que se convencionou denominar "project-level context diagram" ou "diagrama de contexto a nível de projeto", em tradução livre.
 
 - ### Stakeholder Onion Diagram
-![stakeholder onion](stakeholder_onion_diagram/stakeholder_onion_diagram.png)
+![stakeholder onion](stakeholder_onion/stakeholder_onion.png)
 O Stakeholder Onion Diagram foi elaborado para visualizar claramente os diferentes níveis de envolvimento, influência e impacto das diversas partes no sistema, permitindo identificar os principais atores do sistema, garantir que todas perspectivas sejam consideradas e compreender as necessidades e expectativas
 
 - Camadas:
@@ -97,16 +97,16 @@ O Stakeholder Onion Diagram foi elaborado para visualizar claramente os diferent
 Cenário 1: Entrega Normal de Item Médico
 
 - Actors:
-    Solicitante
-    Sistema de Controle de Missões
-    Robô de entrega
-    Equipe do Armazém
+    - Solicitante
+    - Sistema de Controle de Missões
+    - Robô
+    - Equipe do Armazém
 
 - World Objects:
-    Item médico
-    Estoque
-    Armazém
-    Destino
+    - Item médico
+    - Estoque
+    - Armazém
+    - Destino
 
 - Actions and Steps:
     1. Solicitante solicita o equipamento através do sistema
@@ -118,6 +118,33 @@ Cenário 1: Entrega Normal de Item Médico
     7. Robô inicia fase deslocamento para o destino
     8. Robô entrega o item no local
 
+![domain scenario 2](domain_scenarios/domain_scenario_2.png)
+Cenário 2: Bateria Baixa na Fase de Coleta
+
+- Actors:
+    - Solicitante
+    - Sistema de Controle de Missões
+    - Robô A
+    - Robô B
+
+- World Objects:
+    - Item
+    - Estoque
+    - Destino
+    - Estação de recarga
+
+- Actions and Steps:
+    1. Solicitante solicita item médico
+    2. Sistema controlador verifica disponibilidade no Armazém
+    2. Sistema designa Robô A (bateria fraca)
+    3. Durante navegação para Armazém, bateria cai para menos de 10%
+    4. Robô navega até Armazém e o sistema detecta bateria menor que 10%
+    5. Robô A interrompe missão e retorna à estação de recarga mais próxima
+    6. Sistema automaticamente atribui missão a Robô B (bateria boa)
+    7. Robô B navega para Armazém
+    8. Robô B envia mensagem para Equipe do Armazém que coleta o Item
+    9. Desloca até o Destino
+    10. Completa entrega no Destino
 
 - ### Goal Model (v1)
 ![goal model v1](images/goal_model_v1.svg)
@@ -126,12 +153,13 @@ Cenário 1: Entrega Normal de Item Médico
 - ### Impact Map
 
 - ### Goal Model (v2)
-![goal model v2](goal_model/goalModelTrabalhoSi.svg)
+![goal model v2](images/goal_model_v2.svg)
 
 ## Fase 4: Formulation
 - ### Specification by Example
 
 - ### Goal Model (vFinal)
+![goal model vfinal](goal_model/goal_model_definitivo.svg)
 
 # 4. Conclusões
 
