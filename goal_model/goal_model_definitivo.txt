@@ -1,0 +1,1506 @@
+{
+  "actors": [],
+  "orphans": [
+    {
+      "id": "e11f3f55-72ce-4061-9000-c0f17ef7eea2",
+      "text": "G0 entrega de recurso",
+      "type": "kaos.BehavioralGoal",
+      "x": 873,
+      "y": 72,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "29805c46-906b-4b42-9967-19e37f2734af",
+      "text": "G1 alocação de robô",
+      "type": "kaos.BehavioralGoal",
+      "x": 220,
+      "y": 268,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "c383817a-dc6c-4261-acde-08b2e4cb25a9",
+      "text": "G2 chegada do robô ao armazém",
+      "type": "kaos.BehavioralGoal",
+      "x": 954,
+      "y": 238,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "cde22bca-f004-46fe-9e6a-3f9358707d9c",
+      "text": "G3 coleta de recurso",
+      "type": "kaos.BehavioralGoal",
+      "x": 1617,
+      "y": 325,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "3acc7390-99c3-4af6-964e-8b3e646d8215",
+      "text": "G4 entrega de recurso ao solicitante",
+      "type": "kaos.BehavioralGoal",
+      "x": 2154,
+      "y": 233,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "24935c7d-633c-418c-bf44-e43d5044ec43",
+      "text": "pedido foi realizado",
+      "type": "kaos.BehavioralGoal",
+      "x": 33,
+      "y": 409,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "11919aba-55b5-4ea3-b20a-0b3ee8cb92d1",
+      "text": "o(s) recurso(s) soicitado(s) existe(m) no estoque",
+      "type": "kaos.BehavioralGoal",
+      "x": 204,
+      "y": 408,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "f9596317-5f7c-401b-9f9d-e0f0c671d1c7",
+      "text": "seleção de robôs",
+      "type": "kaos.BehavioralGoal",
+      "x": 413,
+      "y": 413,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "10d30c33-460a-4211-a57d-035a42dcff8b",
+      "text": "seleção de múltiplos robôs",
+      "type": "kaos.BehavioralGoal",
+      "x": 254.5,
+      "y": 542,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "ffb4c577-07f6-4ac3-87a9-0f9135a513e3",
+      "text": "seleção de um único robô",
+      "type": "kaos.BehavioralGoal",
+      "x": 595,
+      "y": 539,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "76161515-4c98-4315-b680-700548a16aa7",
+      "text": "mais de um recurso foi solicitado em mais de um armazém",
+      "type": "kaos.BehavioralGoal",
+      "x": 87,
+      "y": 676,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "b88639b0-6064-41a3-8b54-02c50a37dad0",
+      "text": "existe mais de um robô disponível",
+      "type": "kaos.BehavioralGoal",
+      "x": 264,
+      "y": 683,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "bcf7f5c6-c2ab-4855-8070-4ef9791c115a",
+      "text": "alocar múltiplos robôs",
+      "type": "kaos.BehavioralGoal",
+      "x": 399,
+      "y": 683,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "075e2c36-b19d-481d-9811-5bc128109a89",
+      "text": "apenas um recurso foi solicitado ou todos os recursos solicitados encontram-se em um único armazém",
+      "type": "kaos.BehavioralGoal",
+      "x": 548,
+      "y": 680,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "75d224f5-83d8-4aad-8599-26778409070a",
+      "text": "alocar um robô",
+      "type": "kaos.BehavioralGoal",
+      "x": 885,
+      "y": 680,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "1b624cd1-d81e-4f2d-9c9b-35591a4f3b18",
+      "text": "existe um robô disponível",
+      "type": "kaos.BehavioralGoal",
+      "x": 724,
+      "y": 682,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "f43d053a-7af2-4cdf-b143-9107c60e7d9d",
+      "text": "definir ordem das coletas a serem realizadas",
+      "type": "kaos.BehavioralGoal",
+      "x": 852,
+      "y": 389,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "a8b87776-aa46-456b-8784-06fbabde5958",
+      "text": "bateria suficiente para coleta",
+      "type": "kaos.BehavioralGoal",
+      "x": 1063,
+      "y": 403,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "1bb30da8-dd78-43cf-ad84-c95f5eecf23b",
+      "text": "enviar localização do(s) armazém ao robô",
+      "type": "kaos.BehavioralGoal",
+      "x": 1301,
+      "y": 394,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "d1d4f11b-aba6-4af0-9eed-e29555b4afdc",
+      "text": "se deslocar até o(s) armazéns",
+      "type": "kaos.BehavioralGoal",
+      "x": 1519,
+      "y": 400,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "fd5754bd-a11b-4457-83eb-7c9e96cc74c6",
+      "text": "estar com bateria acima de 10%",
+      "type": "kaos.BehavioralGoal",
+      "x": 894,
+      "y": 527,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "f733d376-67ea-4e59-a6e2-6cbb4bd0fdac",
+      "text": "alocar outro robô",
+      "type": "kaos.BehavioralGoal",
+      "x": 1093,
+      "y": 530,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "f738d346-71b9-4cac-baa4-1042db718c6a",
+      "text": "ir para ponto de carga",
+      "type": "kaos.BehavioralGoal",
+      "x": 1269,
+      "y": 529,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "b6073ee0-9383-4b75-a858-113b4c707abb",
+      "text": "obter informações a respeito do recurso",
+      "type": "kaos.BehavioralGoal",
+      "x": 1605,
+      "y": 500,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "0ea85370-86ba-4ec2-abb0-d0f84329d953",
+      "text": "enivar mensagem de solicitação do recurso ao armazém, identificando-o",
+      "type": "kaos.BehavioralGoal",
+      "x": 1752,
+      "y": 501,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "c2fc1f95-e0dc-46c0-8d61-402625eb4c12",
+      "text": "recurso é entregue ao robô",
+      "type": "kaos.BehavioralGoal",
+      "x": 1885,
+      "y": 502,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "7db7fd9b-77a1-492b-85cf-34d53a6fc7e1",
+      "text": "bateria suficiente para a fase de entrega",
+      "type": "kaos.BehavioralGoal",
+      "x": 2022,
+      "y": 360,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "7738177b-46ae-4105-acee-a8f283de65d2",
+      "text": "estar com bateria acima de 30%",
+      "type": "kaos.BehavioralGoal",
+      "x": 2030,
+      "y": 502,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "81223c32-48ad-4b06-9ec2-e6e0ab7462ab",
+      "text": "retorno ao ponto de controle",
+      "type": "kaos.BehavioralGoal",
+      "x": 2208,
+      "y": 497,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "b7e9698a-7e43-4fab-b73e-4f94dd123837",
+      "text": "execução de rotina de retorno bem sucedida",
+      "type": "kaos.BehavioralGoal",
+      "x": 2074,
+      "y": 592,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "4eb28345-013b-4638-9243-a22d02f1c42e",
+      "text": "alertar controle da missão e gerente do setor em caso de falha",
+      "type": "kaos.BehavioralGoal",
+      "x": 2258,
+      "y": 602,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "919b6e26-9d87-4212-bbbc-12301d5dbd63",
+      "text": "deixar mercadoria no checkpoint",
+      "type": "kaos.BehavioralGoal",
+      "x": 1855,
+      "y": 702,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "b27cc7b9-fe03-42ae-accb-3b514f5f92af",
+      "text": "alocar outro robô para a tarefa",
+      "type": "kaos.BehavioralGoal",
+      "x": 2005,
+      "y": 704,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "64fef3f6-a51b-4da3-aa37-875d8f36144c",
+      "text": "ir para o ponto de recarga",
+      "type": "kaos.BehavioralGoal",
+      "x": 2139,
+      "y": 708,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "363bd2ca-ec93-445e-a55b-32d1dc889fcd",
+      "text": "obtenção de informações a respeito do endereço de entrega",
+      "type": "kaos.BehavioralGoal",
+      "x": 2243,
+      "y": 361,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "5a36f8a7-0b08-42c3-b63c-7c1af1a19687",
+      "text": "o endereço de entrega foi informado na hora da realização do pedido",
+      "type": "kaos.BehavioralGoal",
+      "x": 2386,
+      "y": 493,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "230db09c-bf1f-4990-82dc-750c0f0240c3",
+      "text": "enviar mensagem ao solicitante pedindo endereço de entrega",
+      "type": "kaos.BehavioralGoal",
+      "x": 2581,
+      "y": 493,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "a02ed838-ff27-4039-b96d-9e0598118b2f",
+      "text": "entregar recurso",
+      "type": "kaos.BehavioralGoal",
+      "x": 2596,
+      "y": 365,
+      "customProperties": {
+        "Type": "",
+        "Category": "",
+        "Source": "",
+        "Priority": "",
+        "Issue": "",
+        "FormalSpec": "",
+        "FitCriterion": "",
+        "Stability": "",
+        "Description": ""
+      }
+    },
+    {
+      "id": "d3da1df7-1f04-4d3a-8172-f6ad011bfe39",
+      "text": "requerente",
+      "type": "kaos.EnvironmentAgent",
+      "x": 19,
+      "y": 526
+    },
+    {
+      "id": "958602b4-a109-46e7-9d70-307cb932f6dc",
+      "text": "funcionário do armazém",
+      "type": "kaos.EnvironmentAgent",
+      "x": 1865,
+      "y": 605
+    }
+  ],
+  "dependencies": [],
+  "links": [
+    {
+      "hub": {
+        "id": "f7727e9a-5dce-435e-8d40-7fbfe1d47a92",
+        "type": "kaos.RefinementLinkHub",
+        "x": 249,
+        "y": 337,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "5c4291a0-69bb-44ab-bd59-8a818406210f",
+          "type": "kaos.RefinementLinkStart",
+          "source": "24935c7d-633c-418c-bf44-e43d5044ec43",
+          "target": "f7727e9a-5dce-435e-8d40-7fbfe1d47a92"
+        },
+        {
+          "id": "7cc7b933-69bd-4a7b-8f86-e81a3dc542d5",
+          "type": "kaos.RefinementLinkStart",
+          "source": "11919aba-55b5-4ea3-b20a-0b3ee8cb92d1",
+          "target": "f7727e9a-5dce-435e-8d40-7fbfe1d47a92"
+        },
+        {
+          "id": "32cb4009-0185-4fcd-9b58-d503a3655c73",
+          "type": "kaos.RefinementLinkStart",
+          "source": "f9596317-5f7c-401b-9f9d-e0f0c671d1c7",
+          "target": "f7727e9a-5dce-435e-8d40-7fbfe1d47a92"
+        }
+      ],
+      "end": {
+        "id": "552a8586-7cc4-4e30-b1a2-9131622012e7",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "f7727e9a-5dce-435e-8d40-7fbfe1d47a92",
+        "target": "29805c46-906b-4b42-9967-19e37f2734af"
+      }
+    },
+    {
+      "hub": {
+        "id": "4089b475-e084-4cf3-9abb-f8e4294002f5",
+        "type": "kaos.RefinementLinkHub",
+        "x": 918,
+        "y": 167,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "7eaafddf-41dd-45c6-a83b-b53da54b487a",
+          "type": "kaos.RefinementLinkStart",
+          "source": "29805c46-906b-4b42-9967-19e37f2734af",
+          "target": "4089b475-e084-4cf3-9abb-f8e4294002f5"
+        },
+        {
+          "id": "636279f4-46fd-4488-bda7-bbee432d053c",
+          "type": "kaos.RefinementLinkStart",
+          "source": "c383817a-dc6c-4261-acde-08b2e4cb25a9",
+          "target": "4089b475-e084-4cf3-9abb-f8e4294002f5"
+        },
+        {
+          "id": "77f31dd8-ce9e-4d97-8bbd-198d5c4ebf9e",
+          "type": "kaos.RefinementLinkStart",
+          "source": "cde22bca-f004-46fe-9e6a-3f9358707d9c",
+          "target": "4089b475-e084-4cf3-9abb-f8e4294002f5"
+        },
+        {
+          "id": "64e41196-ccab-4340-96ef-93713ea41c5b",
+          "type": "kaos.RefinementLinkStart",
+          "source": "3acc7390-99c3-4af6-964e-8b3e646d8215",
+          "target": "4089b475-e084-4cf3-9abb-f8e4294002f5"
+        }
+      ],
+      "end": {
+        "id": "9824d73e-6b5e-4278-b264-21596a7c3e34",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "4089b475-e084-4cf3-9abb-f8e4294002f5",
+        "target": "e11f3f55-72ce-4061-9000-c0f17ef7eea2"
+      }
+    },
+    {
+      "hub": {
+        "id": "3fbc8f2f-a2aa-4800-b24b-47544cbebbd0",
+        "type": "kaos.RefinementLinkHub",
+        "x": 311,
+        "y": 605,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "31b8a2b1-e0be-4944-85a6-179ec3c48f7d",
+          "type": "kaos.RefinementLinkStart",
+          "source": "76161515-4c98-4315-b680-700548a16aa7",
+          "target": "3fbc8f2f-a2aa-4800-b24b-47544cbebbd0"
+        },
+        {
+          "id": "2ef9a792-ef07-44a7-b659-1a625e51c1a4",
+          "type": "kaos.RefinementLinkStart",
+          "source": "b88639b0-6064-41a3-8b54-02c50a37dad0",
+          "target": "3fbc8f2f-a2aa-4800-b24b-47544cbebbd0"
+        },
+        {
+          "id": "c44255ed-5705-4b71-b9cc-7ea52f75f615",
+          "type": "kaos.RefinementLinkStart",
+          "source": "bcf7f5c6-c2ab-4855-8070-4ef9791c115a",
+          "target": "3fbc8f2f-a2aa-4800-b24b-47544cbebbd0"
+        }
+      ],
+      "end": {
+        "id": "ac30de3a-e7ee-4707-9f67-c7b5326db5e8",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "3fbc8f2f-a2aa-4800-b24b-47544cbebbd0",
+        "target": "10d30c33-460a-4211-a57d-035a42dcff8b"
+      }
+    },
+    {
+      "hub": {
+        "id": "491cb307-b634-483e-8f53-524d2f71ce67",
+        "type": "kaos.RefinementLinkHub",
+        "x": 722,
+        "y": 600,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "87fa080b-696e-4f93-9bd9-8cc0bc1a78ad",
+          "type": "kaos.RefinementLinkStart",
+          "source": "075e2c36-b19d-481d-9811-5bc128109a89",
+          "target": "491cb307-b634-483e-8f53-524d2f71ce67"
+        },
+        {
+          "id": "f86bacc1-1736-4287-8bee-d3accdc8069f",
+          "type": "kaos.RefinementLinkStart",
+          "source": "1b624cd1-d81e-4f2d-9c9b-35591a4f3b18",
+          "target": "491cb307-b634-483e-8f53-524d2f71ce67"
+        },
+        {
+          "id": "700859c1-7762-4ba6-9b48-b68d32063809",
+          "type": "kaos.RefinementLinkStart",
+          "source": "75d224f5-83d8-4aad-8599-26778409070a",
+          "target": "491cb307-b634-483e-8f53-524d2f71ce67"
+        }
+      ],
+      "end": {
+        "id": "244b1257-4bb0-4c5e-9cc1-ea9e6158fa24",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "491cb307-b634-483e-8f53-524d2f71ce67",
+        "target": "ffb4c577-07f6-4ac3-87a9-0f9135a513e3"
+      }
+    },
+    {
+      "hub": {
+        "id": "5920c65e-3c2d-45b5-b790-ee4357a17ed8",
+        "type": "kaos.RefinementLinkHub",
+        "x": 388,
+        "y": 473,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "c47e3cec-aa8d-40bc-8a8a-e03309819518",
+          "type": "kaos.RefinementLinkStart",
+          "source": "10d30c33-460a-4211-a57d-035a42dcff8b",
+          "target": "5920c65e-3c2d-45b5-b790-ee4357a17ed8"
+        }
+      ],
+      "end": {
+        "id": "01953fa0-aac8-4a3f-90eb-a4cee260d087",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "5920c65e-3c2d-45b5-b790-ee4357a17ed8",
+        "target": "f9596317-5f7c-401b-9f9d-e0f0c671d1c7"
+      }
+    },
+    {
+      "hub": {
+        "id": "cc01e331-affd-4fc4-b85f-07218a4d4168",
+        "type": "kaos.RefinementLinkHub",
+        "x": 550,
+        "y": 475,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "51d3151d-3a0f-4f32-ba57-7fb89da184a0",
+          "type": "kaos.RefinementLinkStart",
+          "source": "ffb4c577-07f6-4ac3-87a9-0f9135a513e3",
+          "target": "cc01e331-affd-4fc4-b85f-07218a4d4168"
+        }
+      ],
+      "end": {
+        "id": "6ae8535e-6a29-4804-befd-0d8faaa64933",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "cc01e331-affd-4fc4-b85f-07218a4d4168",
+        "target": "f9596317-5f7c-401b-9f9d-e0f0c671d1c7"
+      }
+    },
+    {
+      "hub": {
+        "id": "4b02e721-9d8e-4cff-b2cd-a66974f38de0",
+        "type": "kaos.RefinementLinkHub",
+        "x": 1026,
+        "y": 466,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "275a0afa-5bae-46aa-a0b4-4efa21309da7",
+          "type": "kaos.RefinementLinkStart",
+          "source": "fd5754bd-a11b-4457-83eb-7c9e96cc74c6",
+          "target": "4b02e721-9d8e-4cff-b2cd-a66974f38de0"
+        }
+      ],
+      "end": {
+        "id": "e9b1451c-0afd-43a4-a967-320779330ffd",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "4b02e721-9d8e-4cff-b2cd-a66974f38de0",
+        "target": "a8b87776-aa46-456b-8784-06fbabde5958"
+      }
+    },
+    {
+      "hub": {
+        "id": "0427b9db-6801-4089-a406-2765bb5f262b",
+        "type": "kaos.RefinementLinkHub",
+        "x": 1184,
+        "y": 460,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "a897a36d-f69d-46fa-8c10-5fc4c282df3c",
+          "type": "kaos.RefinementLinkStart",
+          "source": "f733d376-67ea-4e59-a6e2-6cbb4bd0fdac",
+          "target": "0427b9db-6801-4089-a406-2765bb5f262b"
+        },
+        {
+          "id": "2264e3ee-1cb7-41dc-ba66-cb6585c18ab9",
+          "type": "kaos.RefinementLinkStart",
+          "source": "f738d346-71b9-4cac-baa4-1042db718c6a",
+          "target": "0427b9db-6801-4089-a406-2765bb5f262b"
+        }
+      ],
+      "end": {
+        "id": "f22a42c5-5162-4af0-8b7c-91b6c1d1af06",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "0427b9db-6801-4089-a406-2765bb5f262b",
+        "target": "a8b87776-aa46-456b-8784-06fbabde5958"
+      }
+    },
+    {
+      "hub": {
+        "id": "de9d3694-d80c-406c-b230-2b7ee1f1429f",
+        "type": "kaos.RefinementLinkHub",
+        "x": 1093,
+        "y": 313,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "d0707f57-28e6-4dbd-bdb8-d58b33534ecd",
+          "type": "kaos.RefinementLinkStart",
+          "source": "f43d053a-7af2-4cdf-b143-9107c60e7d9d",
+          "target": "de9d3694-d80c-406c-b230-2b7ee1f1429f"
+        },
+        {
+          "id": "b21cbf73-6769-4259-b8fe-72c5eb5753b0",
+          "type": "kaos.RefinementLinkStart",
+          "source": "a8b87776-aa46-456b-8784-06fbabde5958",
+          "target": "de9d3694-d80c-406c-b230-2b7ee1f1429f"
+        },
+        {
+          "id": "2c7effa4-e10c-4086-aa66-1e1c3ea055af",
+          "type": "kaos.RefinementLinkStart",
+          "source": "1bb30da8-dd78-43cf-ad84-c95f5eecf23b",
+          "target": "de9d3694-d80c-406c-b230-2b7ee1f1429f"
+        },
+        {
+          "id": "3668a9b9-c9f6-4d0d-92aa-fdb0541eafd2",
+          "type": "kaos.RefinementLinkStart",
+          "source": "d1d4f11b-aba6-4af0-9eed-e29555b4afdc",
+          "target": "de9d3694-d80c-406c-b230-2b7ee1f1429f"
+        }
+      ],
+      "end": {
+        "id": "86c04e7c-ed82-43a2-b59e-5b8f97d62f73",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "de9d3694-d80c-406c-b230-2b7ee1f1429f",
+        "target": "c383817a-dc6c-4261-acde-08b2e4cb25a9"
+      }
+    },
+    {
+      "hub": {
+        "id": "64b3e604-f899-4179-a564-5da950f27fed",
+        "type": "kaos.RefinementLinkHub",
+        "x": 1743,
+        "y": 381,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "533bf01b-e081-4cbe-901e-777f851fc31c",
+          "type": "kaos.RefinementLinkStart",
+          "source": "b6073ee0-9383-4b75-a858-113b4c707abb",
+          "target": "64b3e604-f899-4179-a564-5da950f27fed"
+        },
+        {
+          "id": "accea8db-eaef-4e98-839e-04250016b08c",
+          "type": "kaos.RefinementLinkStart",
+          "source": "0ea85370-86ba-4ec2-abb0-d0f84329d953",
+          "target": "64b3e604-f899-4179-a564-5da950f27fed"
+        },
+        {
+          "id": "f4c94c25-5fa0-4edd-958f-b8941db29273",
+          "type": "kaos.RefinementLinkStart",
+          "source": "c2fc1f95-e0dc-46c0-8d61-402625eb4c12",
+          "target": "64b3e604-f899-4179-a564-5da950f27fed"
+        }
+      ],
+      "end": {
+        "id": "64d44b1e-cb22-4bdc-bc74-49fd5f82ebe1",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "64b3e604-f899-4179-a564-5da950f27fed",
+        "target": "cde22bca-f004-46fe-9e6a-3f9358707d9c"
+      }
+    },
+    {
+      "hub": {
+        "id": "308c7dd9-5f3f-4141-9a3c-1b42fe4a9631",
+        "type": "kaos.RefinementLinkHub",
+        "x": 2072,
+        "y": 438,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "e9957a11-31c6-4ba0-8df7-71b01d6fab12",
+          "type": "kaos.RefinementLinkStart",
+          "source": "7738177b-46ae-4105-acee-a8f283de65d2",
+          "target": "308c7dd9-5f3f-4141-9a3c-1b42fe4a9631"
+        },
+        {
+          "id": "74a831e5-c234-4ad1-8a39-e76f4dd867b7",
+          "type": "kaos.RefinementLinkStart",
+          "source": "81223c32-48ad-4b06-9ec2-e6e0ab7462ab",
+          "target": "308c7dd9-5f3f-4141-9a3c-1b42fe4a9631"
+        }
+      ],
+      "end": {
+        "id": "4c5d62b5-6c51-4012-a695-4e127f87f2ad",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "308c7dd9-5f3f-4141-9a3c-1b42fe4a9631",
+        "target": "7db7fd9b-77a1-492b-85cf-34d53a6fc7e1"
+      }
+    },
+    {
+      "hub": {
+        "id": "7217df16-b53d-4cef-b337-1f0ddd2d51ad",
+        "type": "kaos.RefinementLinkHub",
+        "x": 2194,
+        "y": 544,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "30edd881-9ecb-4d3f-ac40-f9b719aca2d7",
+          "type": "kaos.RefinementLinkStart",
+          "source": "b7e9698a-7e43-4fab-b73e-4f94dd123837",
+          "target": "7217df16-b53d-4cef-b337-1f0ddd2d51ad"
+        }
+      ],
+      "end": {
+        "id": "e3bce6be-2272-44bd-9c48-ad27544e1f5b",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "7217df16-b53d-4cef-b337-1f0ddd2d51ad",
+        "target": "81223c32-48ad-4b06-9ec2-e6e0ab7462ab"
+      }
+    },
+    {
+      "hub": {
+        "id": "e732cae0-2e2f-44da-afb9-d6d18fe79715",
+        "type": "kaos.RefinementLinkHub",
+        "x": 2295,
+        "y": 549,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "aa3d200a-b6f3-44fa-bf37-4e24ee5f2926",
+          "type": "kaos.RefinementLinkStart",
+          "source": "4eb28345-013b-4638-9243-a22d02f1c42e",
+          "target": "e732cae0-2e2f-44da-afb9-d6d18fe79715"
+        }
+      ],
+      "end": {
+        "id": "0739dacc-bacd-4c10-bb2e-9f1033b27cc1",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "e732cae0-2e2f-44da-afb9-d6d18fe79715",
+        "target": "81223c32-48ad-4b06-9ec2-e6e0ab7462ab"
+      }
+    },
+    {
+      "hub": {
+        "id": "701a44a6-9a33-4a0c-b71c-e9c5e59ccb36",
+        "type": "kaos.RefinementLinkHub",
+        "x": 2084,
+        "y": 645,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "d9abbe5d-fca6-4f57-a859-d166c48ff500",
+          "type": "kaos.RefinementLinkStart",
+          "source": "919b6e26-9d87-4212-bbbc-12301d5dbd63",
+          "target": "701a44a6-9a33-4a0c-b71c-e9c5e59ccb36"
+        },
+        {
+          "id": "61f31271-c716-4c71-8acf-5e9aac8dbfa0",
+          "type": "kaos.RefinementLinkStart",
+          "source": "b27cc7b9-fe03-42ae-accb-3b514f5f92af",
+          "target": "701a44a6-9a33-4a0c-b71c-e9c5e59ccb36"
+        },
+        {
+          "id": "b4ae46bc-74ac-4409-8384-7f530a4d83dc",
+          "type": "kaos.RefinementLinkStart",
+          "source": "64fef3f6-a51b-4da3-aa37-875d8f36144c",
+          "target": "701a44a6-9a33-4a0c-b71c-e9c5e59ccb36"
+        }
+      ],
+      "end": {
+        "id": "3efc135c-dfee-466c-ac31-63faefaae0c0",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "701a44a6-9a33-4a0c-b71c-e9c5e59ccb36",
+        "target": "b7e9698a-7e43-4fab-b73e-4f94dd123837"
+      }
+    },
+    {
+      "hub": {
+        "id": "d73a887e-62fe-4ba8-bbe4-8756107dcaca",
+        "type": "kaos.RefinementLinkHub",
+        "x": 2393,
+        "y": 429,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "62df1146-49c4-4f14-aea2-4ccf2a50ade9",
+          "type": "kaos.RefinementLinkStart",
+          "source": "5a36f8a7-0b08-42c3-b63c-7c1af1a19687",
+          "target": "d73a887e-62fe-4ba8-bbe4-8756107dcaca"
+        }
+      ],
+      "end": {
+        "id": "9827c885-8105-4a2b-b3a7-da4ee2f194ff",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "d73a887e-62fe-4ba8-bbe4-8756107dcaca",
+        "target": "363bd2ca-ec93-445e-a55b-32d1dc889fcd"
+      }
+    },
+    {
+      "hub": {
+        "id": "b03859c8-afc0-462e-8e69-d02db8bb4917",
+        "type": "kaos.RefinementLinkHub",
+        "x": 2503,
+        "y": 434,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "035f29cf-657e-41fa-b820-6c31396c4ae4",
+          "type": "kaos.RefinementLinkStart",
+          "source": "230db09c-bf1f-4990-82dc-750c0f0240c3",
+          "target": "b03859c8-afc0-462e-8e69-d02db8bb4917"
+        }
+      ],
+      "end": {
+        "id": "e1e2bef1-badb-4255-a688-f74fb0b00295",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "b03859c8-afc0-462e-8e69-d02db8bb4917",
+        "target": "363bd2ca-ec93-445e-a55b-32d1dc889fcd"
+      }
+    },
+    {
+      "hub": {
+        "id": "14513381-8707-454f-a497-9e4b330e48e7",
+        "type": "kaos.RefinementLinkHub",
+        "x": 2231,
+        "y": 297,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "010f0c40-217d-435f-acf1-136112e69e57",
+          "type": "kaos.RefinementLinkStart",
+          "source": "363bd2ca-ec93-445e-a55b-32d1dc889fcd",
+          "target": "14513381-8707-454f-a497-9e4b330e48e7"
+        },
+        {
+          "id": "933149fb-d20a-4432-82d8-f803e6342cc6",
+          "type": "kaos.RefinementLinkStart",
+          "source": "7db7fd9b-77a1-492b-85cf-34d53a6fc7e1",
+          "target": "14513381-8707-454f-a497-9e4b330e48e7"
+        },
+        {
+          "id": "b2c402c9-a28a-4025-9f50-710a0707a8c0",
+          "type": "kaos.RefinementLinkStart",
+          "source": "a02ed838-ff27-4039-b96d-9e0598118b2f",
+          "target": "14513381-8707-454f-a497-9e4b330e48e7"
+        }
+      ],
+      "end": {
+        "id": "476dcd4f-d831-479b-b1a0-2b18159a0959",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "14513381-8707-454f-a497-9e4b330e48e7",
+        "target": "3acc7390-99c3-4af6-964e-8b3e646d8215"
+      }
+    },
+    {
+      "id": "a27a14de-44b0-42ab-9bde-283b59a5f8f0",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "d3da1df7-1f04-4d3a-8172-f6ad011bfe39",
+      "target": "24935c7d-633c-418c-bf44-e43d5044ec43"
+    },
+    {
+      "id": "7f4fd776-5969-4c16-aebc-3e9f7064fe1a",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "958602b4-a109-46e7-9d70-307cb932f6dc",
+      "target": "c2fc1f95-e0dc-46c0-8d61-402625eb4c12"
+    }
+  ],
+  "display": {
+    "cde22bca-f004-46fe-9e6a-3f9358707d9c": {
+      "width": 151.9666748046875,
+      "height": 31.333328247070312
+    },
+    "3acc7390-99c3-4af6-964e-8b3e646d8215": {
+      "width": 190.9666748046875,
+      "height": 44.33332824707031
+    },
+    "24935c7d-633c-418c-bf44-e43d5044ec43": {
+      "backgroundColor": "#69F2FA"
+    },
+    "11919aba-55b5-4ea3-b20a-0b3ee8cb92d1": {
+      "backgroundColor": "#69F2FA",
+      "width": 123.9666748046875,
+      "height": 80.33332824707031
+    },
+    "10d30c33-460a-4211-a57d-035a42dcff8b": {
+      "width": 153.4666748046875,
+      "height": 34.33332824707031
+    },
+    "ffb4c577-07f6-4ac3-87a9-0f9135a513e3": {
+      "width": 152.9666748046875,
+      "height": 40.33332824707031
+    },
+    "76161515-4c98-4315-b680-700548a16aa7": {
+      "backgroundColor": "#69F2FA",
+      "width": 184.4666748046875,
+      "height": 44.33332824707031
+    },
+    "b88639b0-6064-41a3-8b54-02c50a37dad0": {
+      "backgroundColor": "#69F2FA"
+    },
+    "bcf7f5c6-c2ab-4855-8070-4ef9791c115a": {
+      "backgroundColor": "#FAF6A3"
+    },
+    "075e2c36-b19d-481d-9811-5bc128109a89": {
+      "backgroundColor": "#69F2FA",
+      "width": 163.9666748046875,
+      "height": 112.33332824707031
+    },
+    "75d224f5-83d8-4aad-8599-26778409070a": {
+      "backgroundColor": "#FAF6A3"
+    },
+    "1b624cd1-d81e-4f2d-9c9b-35591a4f3b18": {
+      "backgroundColor": "#69F2FA"
+    },
+    "f43d053a-7af2-4cdf-b143-9107c60e7d9d": {
+      "backgroundColor": "#FAF6A3",
+      "width": 150.4666748046875,
+      "height": 47.33332824707031
+    },
+    "1bb30da8-dd78-43cf-ad84-c95f5eecf23b": {
+      "backgroundColor": "#FAF6A3",
+      "width": 174.9666748046875,
+      "height": 46.33332824707031
+    },
+    "d1d4f11b-aba6-4af0-9eed-e29555b4afdc": {
+      "backgroundColor": "#FAF6A3"
+    },
+    "f7727e9a-5dce-435e-8d40-7fbfe1d47a92": {
+      "width": 20,
+      "height": 20
+    },
+    "4089b475-e084-4cf3-9abb-f8e4294002f5": {
+      "width": 20,
+      "height": 20
+    },
+    "3fbc8f2f-a2aa-4800-b24b-47544cbebbd0": {
+      "width": 20,
+      "height": 20
+    },
+    "491cb307-b634-483e-8f53-524d2f71ce67": {
+      "width": 20,
+      "height": 20
+    },
+    "5920c65e-3c2d-45b5-b790-ee4357a17ed8": {
+      "width": 20,
+      "height": 20
+    },
+    "cc01e331-affd-4fc4-b85f-07218a4d4168": {
+      "width": 20,
+      "height": 20
+    },
+    "fd5754bd-a11b-4457-83eb-7c9e96cc74c6": {
+      "backgroundColor": "#FAF6A3"
+    },
+    "f733d376-67ea-4e59-a6e2-6cbb4bd0fdac": {
+      "backgroundColor": "#FAF6A3"
+    },
+    "f738d346-71b9-4cac-baa4-1042db718c6a": {
+      "backgroundColor": "#FAF6A3"
+    },
+    "4b02e721-9d8e-4cff-b2cd-a66974f38de0": {
+      "width": 20,
+      "height": 20
+    },
+    "0427b9db-6801-4089-a406-2765bb5f262b": {
+      "width": 20,
+      "height": 20
+    },
+    "de9d3694-d80c-406c-b230-2b7ee1f1429f": {
+      "width": 20,
+      "height": 20
+    },
+    "b6073ee0-9383-4b75-a858-113b4c707abb": {
+      "backgroundColor": "#FAF6A3",
+      "width": 146.066650390625,
+      "height": 40.06666564941406
+    },
+    "0ea85370-86ba-4ec2-abb0-d0f84329d953": {
+      "backgroundColor": "#FAF6A3",
+      "width": 129.066650390625,
+      "height": 108.06666564941406
+    },
+    "c2fc1f95-e0dc-46c0-8d61-402625eb4c12": {
+      "backgroundColor": "#69F2FA"
+    },
+    "64b3e604-f899-4179-a564-5da950f27fed": {
+      "width": 20,
+      "height": 20
+    },
+    "7db7fd9b-77a1-492b-85cf-34d53a6fc7e1": {
+      "width": 179.566650390625,
+      "height": 44.06666564941406
+    },
+    "7738177b-46ae-4105-acee-a8f283de65d2": {
+      "backgroundColor": "#FAF6A3"
+    },
+    "308c7dd9-5f3f-4141-9a3c-1b42fe4a9631": {
+      "width": 20,
+      "height": 20
+    },
+    "4eb28345-013b-4638-9243-a22d02f1c42e": {
+      "backgroundColor": "#FAF6A3",
+      "width": 243.20001220703125,
+      "height": 74.80000305175781
+    },
+    "7217df16-b53d-4cef-b337-1f0ddd2d51ad": {
+      "width": 20,
+      "height": 20
+    },
+    "e732cae0-2e2f-44da-afb9-d6d18fe79715": {
+      "width": 20,
+      "height": 20
+    },
+    "919b6e26-9d87-4212-bbbc-12301d5dbd63": {
+      "backgroundColor": "#FAF6A3",
+      "width": 147.95001220703125,
+      "height": 45.80000305175781
+    },
+    "b27cc7b9-fe03-42ae-accb-3b514f5f92af": {
+      "backgroundColor": "#FAF6A3"
+    },
+    "64fef3f6-a51b-4da3-aa37-875d8f36144c": {
+      "backgroundColor": "#FAF6A3"
+    },
+    "701a44a6-9a33-4a0c-b71c-e9c5e59ccb36": {
+      "width": 20,
+      "height": 20
+    },
+    "363bd2ca-ec93-445e-a55b-32d1dc889fcd": {
+      "width": 241.20001220703125,
+      "height": 41.80000305175781
+    },
+    "5a36f8a7-0b08-42c3-b63c-7c1af1a19687": {
+      "backgroundColor": "#69F2FA",
+      "width": 181.20001220703125,
+      "height": 53.80000305175781
+    },
+    "230db09c-bf1f-4990-82dc-750c0f0240c3": {
+      "backgroundColor": "#FAF6A3",
+      "width": 167.20001220703125,
+      "height": 53.80000305175781
+    },
+    "d73a887e-62fe-4ba8-bbe4-8756107dcaca": {
+      "width": 20,
+      "height": 20
+    },
+    "b03859c8-afc0-462e-8e69-d02db8bb4917": {
+      "width": 20,
+      "height": 20
+    },
+    "14513381-8707-454f-a497-9e4b330e48e7": {
+      "width": 20,
+      "height": 20
+    },
+    "a02ed838-ff27-4039-b96d-9e0598118b2f": {
+      "backgroundColor": "#FAF6A3"
+    },
+    "d3da1df7-1f04-4d3a-8172-f6ad011bfe39": {
+      "width": 160.08331298828125,
+      "height": 48.133331298828125
+    },
+    "958602b4-a109-46e7-9d70-307cb932f6dc": {
+      "width": 170.08331298828125,
+      "height": 58.133331298828125
+    }
+  },
+  "tool": "dsm3-goals",
+  "metamodelVersion": "1.0",
+  "saveDate": "Wed, 10 Dec 2025 00:13:56 GMT",
+  "diagram": {
+    "width": 2813,
+    "height": 1300,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}
