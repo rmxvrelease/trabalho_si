@@ -15,6 +15,8 @@
 
 </center>
 
+- Link para o repositório do trabalho: [trabalho_si](https://github.com/rmxvrelease/trabalho_si)
+
 # 1. Introdução
 
 > Missão B: Entregar mercadorias/equipamentos
@@ -59,11 +61,93 @@ O objetivo principal do sistema e da missão é a entrega de mercadorias e equip
 
 # 2. Fundamentação Teórica
 
+### 2.1 Fase 1: Initiation - Compreensão do Contexto e Stakeholders
+#### 2.1.1 Context Diagram
+
+Teoria: O diagrama de contexto define os limites do sistema e suas interfaces com entidades externas, estabelecendo claramente o escopo do sistema. Identificando as atividades do mundo real que a máquina precisa melhorar e apoiar.
+
+No Projeto:
+
+    - Sistema Central: Sistema de Entrega com Robôs Autônomos
+
+    - Entidades Externas: Requerentes, Equipe do Armazém, Gerente do Setor
+
+    - Fluxos de Dados: Solicitações, confirmações, notificações e mensagems
+
+#### 2.1.2 Stakeholder Onion Diagram
+
+Teoria: O modelo "cebola" de stakeholders classifica stakeholders por níveis de influência e envolvimento com o projeto. A fim de que seja possível identificar todas as partes interessadas e compreender relacões de influência
+
+No Projeto:
+
+    - Núcleo: Controlador da Missão (influência direta)
+
+    - Anel Interno: Operadores Diretos (envolvimento diário)
+
+    - Anel Médio: Suporte Técnico (suporte operacional)
+
+    - Anel Externo: Impactados e Reguladores (influência indireta)
+
+### 2.2 Fase 2: Investigation - Exploração do Domínio e Objetivos
+#### 2.2.1 Domain Scenarios
+
+Teoria: Os domain scenarios fornecem narrativas contextuais de situações operacionais. A fim de que seja possível contextualizar requisitos em situações reais e antecipar casos de exceção
+
+No Projeto:
+
+    - 2 cenários narrativos cobrindo casos normais e de exceção
+
+    - Estrutura padronizada: Atores, Objetos do Mundo, Ações e Passos
+
+    - Foco em situações reais: Caso ideal e bateria baixa
+
+#### 2.2.2 Goal Model
+
+Teoria: Framework KAOS abordagem orientada a objetivos para engenharia de requisitos. Permite que os objetivos de um projeto sejam organizados e estruturados de forma hierárquica, identificando requisitos como refinamentos de goals
+
+Componentes aplicados:
+
+    - Goals: Estados desejados do sistema (Achieve, Maintain, Avoid)
+
+    - Agents: Entidades responsáveis por atingir goals
+
+    - Refinements: Relações AND/OR entre goals
+
+    - Responsibility assignments: Atribuição de goals a agents
+
+### 2.3 Fase 3: Decision - Priorização e Impacto
+#### 2.3.1 Impact Maps
+
+Teoria: Metodologia de Impact Mapping para alinhamento estratégico, traduzindo goals em ações concretas e priorizando o desenvolvimento baseado em impacto. Com o objetivo de garantir o alinhamento entre o desenvolvimento e os objetivos
+
+Estrutura:
+
+Why? (Goal) → Who? (Actor) → How? (Impact) → What? (Deliverable)
+
+No Projeto:
+
+    - 2 Impact Maps goals selecionados
+
+    - Foco em deliverables implementáveis
+
+    - Conexão explícita entre features e objetivos de negócio
+
+### 2.4 Fase 4: Formulation - Especificação Detalhada
+### 2.4.1 Specification by Example com Example Maps
+
+Teoria: Os BDDs e os Example Maps usam estruturas Given-When-Then para especificar comportamentos, além do Example Mapping ser uma técnica que explora as regras de negócio. A fim de eliminar ambiguidades através de exemplos concretos e facilitar o entendimento do sistema
+
+No Projeto:
+
+    - User stories para features
+
+    - Tabelas de exemplos para regras
+
+    - BDDs para comportamentos específicos
+
 # 3. Modelagens
 ## Fase 1: Initiation
 - ### Context Diagram
-
-![context diagram](context_diagram/context_diagram.jpg)
 
 A imagem consiste em um "Context Diagram" no qual se descreve o trabalho (Work) que o sistema de entregas robótico deve realizar. Vale notar que o diagrama não especifica de que forma o trabalho deve ser executado nem o funcionamento
 interno do serviço, ele apenas descreve as manifestações externas e os efeitos provenientes da sua realização sobre os atores diretamente afetados por ele.
@@ -71,9 +155,9 @@ interno do serviço, ele apenas descreve as manifestações externas e os efeito
 Assim, o diagrama em questão poderia representar o serviço de entregas tanto antes da sua automação por meio de robôs 
 (The World-as-is) quanto depois dela (The World-to-be). Essa é uma característica típica do que se convencionou denominar "project-level context diagram" ou "diagrama de contexto a nível de projeto", em tradução livre.
 
-- ### Stakeholder Onion Diagram
-![stakeholder onion](stakeholder_onion/stakeholder_onion.png)
+![context diagram](context_diagram/context_diagram.jpg)
 
+- ### Stakeholder Onion Diagram
 O Stakeholder Onion Diagram foi elaborado para visualizar claramente os diferentes níveis de envolvimento, influência e impacto das diversas partes no sistema, permitindo identificar os principais atores do sistema, garantir que todas perspectivas sejam consideradas e compreender as necessidades e expectativas
 
 - Camadas:
@@ -93,10 +177,10 @@ O Stakeholder Onion Diagram foi elaborado para visualizar claramente os diferent
         - Funcionários do Hospital
         - Comunidade
 
+![stakeholder onion](stakeholder_onion/stakeholder_onion.png)
+
 ## Fase 2: Investigation
 - ### Domain Scenarios
-![domain scenario 1](domain_scenarios/domain_scenario_1.png)
-
 Cenário 1: Entrega Normal de Item Médico
 
 - Actors:
@@ -121,7 +205,7 @@ Cenário 1: Entrega Normal de Item Médico
     7. Robô inicia fase deslocamento para o destino
     8. Robô entrega o item no local
 
-![domain scenario 2](domain_scenarios/domain_scenario_2.png)
+![domain scenario 1](domain_scenarios/domain_scenario_1.png)
 
 Cenário 2: Bateria Baixa na Fase de Coleta
 
@@ -150,7 +234,11 @@ Cenário 2: Bateria Baixa na Fase de Coleta
     9. Desloca até o Destino
     10. Completa entrega no Destino
 
+![domain scenario 2](domain_scenarios/domain_scenario_2.png)
+
 - ### Goal Model (v1)
+A primeira versão do Goal Model é a disponibilizada para o workshop da matéria, sendo parte da base da maior parte das modelagens realizadas no projeto. Os goals são divididos desde o momento da solicitação, da coleta e da entrega
+
 ![goal model v1](images/goal_model_v1.svg)
 
 ## Fase 3: Decision
@@ -166,13 +254,16 @@ Cada Impact Map segue uma estrutura hierárquica de quatro níveis:
 - Impact Map 1: Goal - Estar com bateria acima de 10%
 ![impact map 1](impact_maps/impact_map_1.png)
 
+- Impact Map 2: Goal - Recurso é entregue ao robô
+![impact map 2](impact_maps/impact_map_2.png)
+
 - ### Goal Model (v2)
 ![goal model v2](images/goal_model_v2.svg)
 
 ## Fase 4: Formulation
 - ### Specification by Example
 
-bla blaa bla muitos textos
+Analisando o sistema de entregas foi possível coletar 5 user stories, desde o requerente dos materiais, até o gerente e o funcionário do armazém. Cada história possui regras específicas e seus exemplos dando certo e errado
 
 - Feature 1:
 ![story1](images/story1.png)
@@ -193,6 +284,9 @@ bla blaa bla muitos textos
 ![goal model vfinal](goal_model/goal_model_definitivo.svg)
 
 # 4. Conclusões
+A fundamentação teórica junto aos modelos apresentados valida que a abordagem de engenharia de requisitos é tecnicamente acertiva e prática. Assegurando que o sistema de entregas será desenvolvido com base em requisitos bem compreendidos, alinhados com necessidades reais e especificados com precisão suficiente para guiar desenvolvimento, teste e implementação.
+
+Em resumo, a metodologia aplicada garante que o sistema resultante será desde o começo do projeto até o fim permeada por requisitos bem coletados e mapeados.
 
 # 5. Referências
  - ROBERTSON, Suzanne; ROBERTSON, James. Mastering the Requirements Process: Getting Requirements Right, 2012
