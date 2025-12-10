@@ -18,7 +18,8 @@
 # 1. Introdução
 
 > Missão B: Entregar mercadorias/equipamentos
-Quando necessário, um robô deve coletar os recursos requisitados no estoque e entregá-los ao agente
+>
+> Quando necessário, um robô deve coletar os recursos requisitados no estoque e entregá-los ao agente
 solicitante em um local especificado. Na fase de coleta, o robô deve ir aos locais de armazenamento onde
 os recursos podem ser encontrados. A ordem a ser seguida é definida pela estimativa do tempo de espera
 somado ao caminho que o robô deve percorrer. Assim que o robô chega a um local de armazenamento e
@@ -71,17 +72,66 @@ Assim, o diagrama em questão poderia representar o serviço de entregas tanto a
 
 - ### Stakeholder Onion Diagram
 ![stakeholder onion](stakeholder_onion_diagram/stakeholder_onion_diagram.png)
+O Stakeholder Onion Diagram foi elaborado para visualizar claramente os diferentes níveis de envolvimento, influência e impacto das diversas partes no sistema, permitindo identificar os principais atores do sistema, garantir que todas perspectivas sejam consideradas e compreender as necessidades e expectativas
+
+- Camadas:
+    1. Núcleo:
+        - Controlador da Missão
+    2. Anel Interno: Operadores diretos
+        - Equipe Operacional
+        - Solicitantes (Equipe Médica)
+        - Equipe do Armazém
+    3. Anel Médio: Suporte e Infraestrutura
+        - Fornecedores técnicos
+        - Desenvolvedores
+        - Gerente do setor
+    4. Anel Externo: Impactados e Reguladores
+        - Pacientes
+        - Visitantes do Hospital
+        - Funcionários do Hospital
+        - Comunidade
 
 ## Fase 2: Investigation
 - ### Domain Scenarios
 ![domain scenario 1](domain_scenarios/domain_scenario_1.png)
+Cenário 1: Entrega Normal de Item Médico
+
+- Actors:
+    Solicitante
+    Sistema de Controle de Missões
+    Robô de entrega
+    Equipe do Armazém
+
+- World Objects:
+    Item médico
+    Estoque
+    Armazém
+    Destino
+
+- Actions and Steps:
+    1. Solicitante solicita o equipamento através do sistema
+    2. Sistema de Controle recebe a solicitação e verifica disponibilidade no estoque do Armazém
+    3. Sistema designa Robô para a missão
+    4. Robô navega até o Armazém usando o caminho mais rápido
+    5. Ao chegar, Robô envia mensagem para Equipe do Armazém
+    6. Equipe do Armazém confirma e carrega o item no robô
+    7. Robô inicia fase deslocamento para o destino
+    8. Robô entrega o item no local
+
 
 - ### Goal Model (v1)
-![goal model](goal_model/goalModelTrabalhoSi.svg)
+![goal model v1](images/goal_model_v1.svg)
 
 ## Fase 3: Decision
+- ### Impact Map
+
+- ### Goal Model (v2)
+![goal model v2](goal_model/goalModelTrabalhoSi.svg)
 
 ## Fase 4: Formulation
+- ### Specification by Example
+
+- ### Goal Model (vFinal)
 
 # 4. Conclusões
 
