@@ -64,6 +64,7 @@ O objetivo principal do sistema e da missão é a entrega de mercadorias e equip
 - ### Context Diagram
 
 ![context diagram](context_diagram/context_diagram.jpg)
+
 A imagem consiste em um "Context Diagram" no qual se descreve o trabalho (Work) que o sistema de entregas robótico deve realizar. Vale notar que o diagrama não especifica de que forma o trabalho deve ser executado nem o funcionamento
 interno do serviço, ele apenas descreve as manifestações externas e os efeitos provenientes da sua realização sobre os atores diretamente afetados por ele.
 
@@ -72,6 +73,7 @@ Assim, o diagrama em questão poderia representar o serviço de entregas tanto a
 
 - ### Stakeholder Onion Diagram
 ![stakeholder onion](stakeholder_onion/stakeholder_onion.png)
+
 O Stakeholder Onion Diagram foi elaborado para visualizar claramente os diferentes níveis de envolvimento, influência e impacto das diversas partes no sistema, permitindo identificar os principais atores do sistema, garantir que todas perspectivas sejam consideradas e compreender as necessidades e expectativas
 
 - Camadas:
@@ -94,6 +96,7 @@ O Stakeholder Onion Diagram foi elaborado para visualizar claramente os diferent
 ## Fase 2: Investigation
 - ### Domain Scenarios
 ![domain scenario 1](domain_scenarios/domain_scenario_1.png)
+
 Cenário 1: Entrega Normal de Item Médico
 
 - Actors:
@@ -119,6 +122,7 @@ Cenário 1: Entrega Normal de Item Médico
     8. Robô entrega o item no local
 
 ![domain scenario 2](domain_scenarios/domain_scenario_2.png)
+
 Cenário 2: Bateria Baixa na Fase de Coleta
 
 - Actors:
@@ -151,12 +155,39 @@ Cenário 2: Bateria Baixa na Fase de Coleta
 
 ## Fase 3: Decision
 - ### Impact Map
+O Impact Mapping é uma técnica de planejamento estratégico que visa conectar objetivos de negócio com iniciativas de desenvolvimento através de uma estrutura visual. No contexto do sistema de entregas, os Impact Maps foram utilizados para desdobrar goals de alto nível em entregas concretas, identificar atores relevantes e seus comportamentos desejados, mapear impactos que cada funcionalidade deve gerar e definir deliverables específicos
+
+Cada Impact Map segue uma estrutura hierárquica de quatro níveis:
+ * Nível 1: GOAL (Por quê?)
+ * Nível 2: ACTOR (Quem?)
+ * Nível 3: IMPACT (Como?)
+ * Nível 4: DELIVERABLE (O quê?)
+
+- Impact Map 1: Goal - Estar com bateria acima de 10%
+![impact map 1](impact_maps/impact_map_1.png)
 
 - ### Goal Model (v2)
 ![goal model v2](images/goal_model_v2.svg)
 
 ## Fase 4: Formulation
 - ### Specification by Example
+
+bla blaa bla muitos textos
+
+- Feature 1:
+![story1](images/story1.png)
+
+- Feature 2:
+![story2](images/story2.png)
+
+- Feature 3:
+![story3](images/story3.png)
+
+- Feature 4:
+![story4](images/story4.png)
+
+- Feature 5:
+![story5](images/story5.png)
 
 - ### Goal Model (vFinal)
 ![goal model vfinal](goal_model/goal_model_definitivo.svg)
